@@ -1,11 +1,25 @@
 \chapter*{Eidesstattliche Erklärung}
 \addcontentsline{toc}{chapter}{Eidesstattliche Erklärung}
-Ich erkläre hiermit an Eides statt, dass ich die vorliegende Bachelorarbeit selbstständig und ohne Benutzung anderer als der angegebenen Hilfsmittel angefertigt habe. Die aus fremden Quellen direkt oder indirekt übernommenen Stellen sind als solche kenntlich gemacht. Die Arbeit wurde bisher weder in gleicher noch in ähnlicher Form einer anderen Prüfungsbehörde vorgelegt und auch noch nicht veröffentlicht.
 
-\vspace{30mm}
-\noindent
-Verfasser/in\hfill                                       Unterschrift Verfasser/in
+Ich erkläre hiermit an Eides statt, dass ich die vorliegende Bachelorarbeit
+selbstständig und ohne Benutzung anderer als der angegebenen Hilfsmittel
+angefertigt habe. Die aus fremden Quellen direkt oder indirekt übernommenen
+Stellen sind als solche kenntlich gemacht. Die Arbeit wurde bisher weder in
+gleicher noch in ähnlicher Form einer anderen Prüfungsbehörde vorgelegt und
+auch noch nicht veröffentlicht.
 
-\vspace{3mm}
-\noindent
-Dornbirn, am [Tag. Monat Jahr anführen]\hfill            Vor- und Nachname Verfasser/in
+\vfill
+
+%% definition of the block tat contains date and signature
+\newcommand{\mysignatureblock}[3]{%
+  %% Sorry, this is a "bit" of a hack. Maybe someone knows a more elegant method?
+  \begin{tabular}{llp{2em}l}
+  #1 & \hspace{4cm}        & & \hspace{5cm} \\\cline{2-2}\cline{4-4}
+     &                     & & \\[-3mm]
+     & {\footnotesize #2}  & & {\footnotesize #3}
+  \end{tabular}
+}
+
+\mysignatureblock{Dornbirn,}{Date}{Vor- und Nachname}
+
+\vfill\vfill
