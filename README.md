@@ -7,7 +7,7 @@ I've took the official layout and adapted it to my needs. This mainly
 includes a purpose-driven folder structure.
 
 This version should be used if you intend to write your thesis in `German`.
-There is also an `English version: https://github.com/lumannnn/FHV-Thesis-LaTeX-ENG
+There is also an `English` version: https://github.com/lumannnn/FHV-Thesis-LaTeX-ENG
 
 Structure
 ---------
