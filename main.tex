@@ -22,72 +22,12 @@
 % evtl. Sperrvermerkseite
 Falls erforderlich (nur in begründeten Fällen): Sperrvermerk
 
+\input{content/title-page}
+\input{content/dedication}
+\input{content/abstract}
+\input{content/preface}
 
-% Titelblatt:
-\newpage
-\pagenumbering{arabic} % seitenzahlnummerierung ab hier beginnen
-\begin{titlepage}
-  \mbox{}
-  \vspace{5mm}
-  \begin{center}
-    \huge{\textbf{\sffamily[TITEL DER ARBEIT]}} \\
-    \huge{\textbf{\sffamily[evtl. Untertitel]}}\\
-  \end{center}
-  \vspace{40mm}
-  \begin{flushright}
-  Bachelorarbeit [1 bzw. 2 anführen]\\
-  zur Erlangung des akademischen Grades\\
-  Bachelor of Science in Engineering (BSc)
-
-  \vspace{20mm}
-  Fachhochschule Vorarlberg\\
-  Mechatronics
-
-  \vspace{40mm}
-  Betreut von\\\relax
-  [akad. Grad Name Betreuer/in anführen]\\
-  Vorgelegt von\\\relax
-  [(sofern vorhanden akad. Grad\footnote{Bitte beachten Sie, dass akademische Grade nach dem gestuften System nach dem Namen, getrennt durch ein Komma, gesetzt werden}) Name Studierende/r anführen]\\
-
-  \vspace{20mm}
-  Dornbirn, [Monat Jahr anführen]
-  \end{flushright}
-\end{titlepage}
-
-
-% evtl. Widmung:
-\chapter*{[Evtl. Widmung]}
-
-
-% Abstract:
-\newpage
-\chapter*{Abstract}
-[Englischen Titel anführen]
-
-Formatvorlage für den Fließtext.
-
-
-% Kurzreferat:
-\newpage
-\chapter*{Kurzreferat}
-[Deutschen Titel anführen]
-
-Formatvorlage für den Fließtext.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-sit amet.
-
-
-% evtl. Vorwort:
-\newpage
-\chapter*{[Evtl. Vorwort]}
+% directories
 
 \tableofcontents
 
@@ -101,7 +41,6 @@ sit amet.
 \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 \listoftables
 
-
 % evtl. Abkürzungsverzeichnis:
 \newpage
 \chapter*{[Bei Bedarf Abkürzungsverzeichnis]}
@@ -111,7 +50,8 @@ sit amet.
  \acro{Bash}{Bourne-again shell}
 \end{acronym}
 
-% reference to the 'content' folder
+% end of: directories
+
 \input{content/_content}
 
 % \bibliographystyle{unsrt}
@@ -129,18 +69,6 @@ sit amet.
 \addcontentsline{toc}{chapter}{[Evtl. Anhang]}
 Formatvorlage für den Fließtext.
 
-
-\chapter*{Eidesstattliche Erklärung}
-\addcontentsline{toc}{chapter}{Eidesstattliche Erklärung}
-Ich erkläre hiermit an Eides statt, dass ich die vorliegende Bachelorarbeit selbstständig und ohne Benutzung anderer als der angegebenen Hilfsmittel angefertigt habe. Die aus fremden Quellen direkt oder indirekt übernommenen Stellen sind als solche kenntlich gemacht. Die Arbeit wurde bisher weder in gleicher noch in ähnlicher Form einer anderen Prüfungsbehörde vorgelegt und auch noch nicht veröffentlicht.
-
-\vspace{30mm}
-\noindent
-Verfasser/in\hfill                                       Unterschrift Verfasser/in
-
-\vspace{3mm}
-\noindent
-Dornbirn, am [Tag. Monat Jahr anführen]\hfill            Vor- und Nachname Verfasser/in
-
+\input{content/statutory-declaration}
 
 \end{document}
